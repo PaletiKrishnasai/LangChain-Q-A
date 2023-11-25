@@ -17,7 +17,7 @@ st.header("Hey, Let's Chat")
 # Initialize session state for storing messages
 if "flowmessages" not in st.session_state:
     st.session_state["flowmessages"] = [
-        SystemMessage(content="eYou ar a comedian AI assistant.")
+        SystemMessage(content="test content.")
     ]
 
 
